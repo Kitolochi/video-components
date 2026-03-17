@@ -10,6 +10,9 @@ import { AbsoluteFill, Sequence, useCurrentFrame, useVideoConfig, interpolate, s
  * - Depth shadows
  * - Ambient particles
  * - Film grain texture
+ *
+ * 60fps-ready: All timing uses fps parameter, no hardcoded frame values.
+ * Duration: 24s (1440 frames at 60fps)
  */
 
 export const UIShowcasePolished: React.FC = () => {

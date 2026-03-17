@@ -8,6 +8,9 @@ import { AbsoluteFill, Sequence, useCurrentFrame, useVideoConfig, interpolate, s
  * - Glow is EDGE ACCENT (left/right border), not full outline
  * - Only 1-2 shots use true isometric tilt (frame 40s)
  * - Primary technique: Isolated UI fragments scaled 2-3x
+ *
+ * 60fps-ready: All timing uses fps parameter.
+ * Duration: 12s (720 frames at 60fps)
  */
 
 export const MarkKndActual: React.FC = () => {

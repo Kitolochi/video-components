@@ -8,7 +8,10 @@ import { AbsoluteFill, Sequence, useCurrentFrame, useVideoConfig, interpolate, s
  * - 10% are isolated/scaled UI elements
  * - 10% are true isometric 3D cards
  *
- * This composition explores variations of each technique
+ * This composition explores variations of each technique.
+ *
+ * 60fps-ready: All timing uses fps parameter.
+ * Duration: 24s (1440 frames at 60fps)
  */
 
 export const UIShowcaseRange: React.FC = () => {

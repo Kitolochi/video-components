@@ -1,6 +1,17 @@
 import { AbsoluteFill, Img, Sequence, useCurrentFrame, useVideoConfig, interpolate, spring, staticFile } from 'remotion';
 
-// Multi-size isometric card gallery like MarkKnd video
+/**
+ * Isometric Showcase — Multi-size card gallery
+ *
+ * Demonstrates size and angle variations:
+ * - Large card (800px, rotateX -5°, rotateY 3°)
+ * - Medium card (600px, rotateX -8°, rotateY 5°)
+ * - Small card (400px, rotateX -10°, rotateY 8°)
+ * - Grid layout with staggered animations
+ *
+ * 60fps-ready: All timing uses fps parameter.
+ * Duration: 12s (720 frames at 60fps)
+ */
 export const IsometricShowcase: React.FC = () => {
   const frame = useCurrentFrame();
   const { fps, width, height } = useVideoConfig();
