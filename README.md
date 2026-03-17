@@ -81,6 +81,8 @@ npm start
 
 Preview compositions in the Remotion Studio at http://localhost:3000
 
+**IMPORTANT:** All compositions use **60fps** for smoother animations. See `STANDARDS.md` for details.
+
 ## Rendering
 
 Render individual compositions:

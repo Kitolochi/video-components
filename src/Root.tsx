@@ -4,6 +4,9 @@ import { UIShowcaseRange } from "./demos/UIShowcaseRange";
 import { UIShowcasePolished } from "./demos/UIShowcasePolished";
 import { IsometricShowcase } from "./demos/IsometricShowcase";
 
+// STANDARD: 60fps for all compositions (smoother animations, professional output)
+const FPS = 60;
+
 export const RemotionRoot: React.FC = () => {
   return (
     <>
@@ -11,8 +14,8 @@ export const RemotionRoot: React.FC = () => {
       <Composition
         id="MarkKndActual"
         component={MarkKndActual}
-        durationInFrames={360}
-        fps={30}
+        durationInFrames={720}
+        fps={FPS}
         width={1920}
         height={1080}
       />
@@ -21,8 +24,8 @@ export const RemotionRoot: React.FC = () => {
       <Composition
         id="UIShowcaseRange"
         component={UIShowcaseRange}
-        durationInFrames={720}
-        fps={30}
+        durationInFrames={1440}
+        fps={FPS}
         width={1920}
         height={1080}
       />
@@ -31,8 +34,8 @@ export const RemotionRoot: React.FC = () => {
       <Composition
         id="UIShowcasePolished"
         component={UIShowcasePolished}
-        durationInFrames={720}
-        fps={30}
+        durationInFrames={1440}
+        fps={FPS}
         width={1920}
         height={1080}
       />
@@ -41,8 +44,8 @@ export const RemotionRoot: React.FC = () => {
       <Composition
         id="IsometricShowcase"
         component={IsometricShowcase}
-        durationInFrames={360}
-        fps={30}
+        durationInFrames={720}
+        fps={FPS}
         width={1920}
         height={1080}
       />
