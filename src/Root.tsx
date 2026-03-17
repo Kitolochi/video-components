@@ -4,6 +4,7 @@ import { UIShowcaseRange } from "./demos/UIShowcaseRange";
 import { UIShowcasePolished } from "./demos/UIShowcasePolished";
 import { IsometricShowcase } from "./demos/IsometricShowcase";
 import { IsometricVariations } from "./demos/IsometricVariations";
+import { IsometricVariationsFluid } from "./demos/IsometricVariationsFluid";
 
 // STANDARD: 60fps for all compositions (smoother animations, professional output)
 const FPS = 60;
@@ -55,6 +56,16 @@ export const RemotionRoot: React.FC = () => {
       <Composition
         id="IsometricVariations"
         component={IsometricVariations}
+        durationInFrames={1440}
+        fps={FPS}
+        width={1920}
+        height={1080}
+      />
+
+      {/* Isometric Variations FLUID — MarkKnd fluidity techniques applied (24s) */}
+      <Composition
+        id="IsometricVariationsFluid"
+        component={IsometricVariationsFluid}
         durationInFrames={1440}
         fps={FPS}
         width={1920}
