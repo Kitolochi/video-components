@@ -5,6 +5,7 @@ import { UIShowcasePolished } from "./demos/UIShowcasePolished";
 import { IsometricShowcase } from "./demos/IsometricShowcase";
 import { IsometricVariations } from "./demos/IsometricVariations";
 import { IsometricVariationsFluid } from "./demos/IsometricVariationsFluid";
+import { FluidTypography } from "./demos/FluidTypography";
 
 // STANDARD: 60fps for all compositions (smoother animations, professional output)
 const FPS = 60;
@@ -66,6 +67,16 @@ export const RemotionRoot: React.FC = () => {
       <Composition
         id="IsometricVariationsFluid"
         component={IsometricVariationsFluid}
+        durationInFrames={1440}
+        fps={FPS}
+        width={1920}
+        height={1080}
+      />
+
+      {/* Fluid Typography — Premium text animation techniques (24s) */}
+      <Composition
+        id="FluidTypography"
+        component={FluidTypography}
         durationInFrames={1440}
         fps={FPS}
         width={1920}
