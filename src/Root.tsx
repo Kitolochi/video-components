@@ -6,6 +6,7 @@ import { IsometricShowcase } from "./demos/IsometricShowcase";
 import { IsometricVariations } from "./demos/IsometricVariations";
 import { IsometricVariationsFluid } from "./demos/IsometricVariationsFluid";
 import { FluidTypography } from "./demos/FluidTypography";
+import { CurvanceBytesLaunch } from "./demos/CurvanceBytesLaunch";
 
 // STANDARD: 60fps for all compositions (smoother animations, professional output)
 const FPS = 60;
@@ -77,6 +78,16 @@ export const RemotionRoot: React.FC = () => {
       <Composition
         id="FluidTypography"
         component={FluidTypography}
+        durationInFrames={1440}
+        fps={FPS}
+        width={1920}
+        height={1080}
+      />
+
+      {/* Curvance Bytes Launch — Production-ready DeFi product announcement (24s) */}
+      <Composition
+        id="CurvanceBytesLaunch"
+        component={CurvanceBytesLaunch}
         durationInFrames={1440}
         fps={FPS}
         width={1920}
