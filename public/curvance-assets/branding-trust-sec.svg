@@ -1,0 +1,31 @@
+<svg width="185" height="150" viewBox="0 0 185 150" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g clip-path="url(#clip0_2124_9906)">
+<path fill-rule="evenodd" clip-rule="evenodd" d="M162.225 84.8952C155.94 94.1307 145.697 102 132.5 102C119.303 102 109.06 94.1307 102.775 84.8952C96.4366 75.5814 93 63.5525 93 51C93 38.4475 96.4366 26.4186 102.775 17.1048C109.06 7.86927 119.303 0 132.5 0C145.697 0 155.94 7.86927 162.225 17.1048C168.563 26.4186 172 38.4475 172 51C172 63.5525 168.563 75.5814 162.225 84.8952ZM132.5 87C146.031 87 157 70.8822 157 51C157 31.1177 146.031 15 132.5 15C118.969 15 108 31.1177 108 51C108 70.8822 118.969 87 132.5 87Z" fill="#2B2B2B"/>
+</g>
+<path d="M98.5 29.5H56.5L38 11H24" stroke="#2B2B2B" stroke-width="2"/>
+<circle cx="18.5" cy="11.5" r="5.5" stroke="#2B2B2B" stroke-width="2"/>
+<path d="M98.5 61.5H40.5L29 73H13" stroke="#2B2B2B" stroke-width="2"/>
+<circle cx="7.5" cy="73.5" r="5.5" stroke="#2B2B2B" stroke-width="2"/>
+<path d="M120.5 72.5H53.5L43 84H35" stroke="#2B2B2B" stroke-width="2"/>
+<circle cx="29.5" cy="84.5" r="5.5" stroke="#2B2B2B" stroke-width="2"/>
+<path d="M123.5 105.5H56.5L46 117H22" stroke="#2B2B2B" stroke-width="2"/>
+<circle cx="16.5" cy="117.5" r="5.5" stroke="#2B2B2B" stroke-width="2"/>
+<path d="M93.5 129H30.5L21 138.5H12" stroke="#2B2B2B" stroke-width="2"/>
+<circle cx="6.5" cy="138.5" r="5.5" stroke="#2B2B2B" stroke-width="2"/>
+<path d="M98.5 40.5H61.5" stroke="#2B2B2B" stroke-width="2"/>
+<circle cx="56.5" cy="40.5" r="5.5" stroke="#2B2B2B" stroke-width="2"/>
+<path d="M98.5 84.5H69.5" stroke="#2B2B2B" stroke-width="2"/>
+<circle cx="64.5" cy="84.5" r="5.5" stroke="#2B2B2B" stroke-width="2"/>
+<path d="M107.5 117.5H70.5" stroke="#2B2B2B" stroke-width="2"/>
+<circle cx="65.5" cy="117.5" r="5.5" stroke="#2B2B2B" stroke-width="2"/>
+<path d="M98.5 51.5H26.5" stroke="#2B2B2B" stroke-width="2"/>
+<circle cx="20.5" cy="51.5" r="5.5" stroke="#2B2B2B" stroke-width="2"/>
+<path d="M85.5 95.5H13.5" stroke="#2B2B2B" stroke-width="2"/>
+<circle cx="7.5" cy="95.5" r="5.5" stroke="#2B2B2B" stroke-width="2"/>
+<path fill-rule="evenodd" clip-rule="evenodd" d="M89 65C84.5817 65 81 68.5817 81 73V142C81 146.418 84.5817 150 89 150H177C181.418 150 185 146.418 185 142V73C185 68.5817 181.418 65 177 65H89ZM128 93.5L122.5 131.5H143L138 93.5H160L165 83H101L106 93.5H128Z" fill="#2B2B2B"/>
+<defs>
+<clipPath id="clip0_2124_9906">
+<rect width="79" height="73" fill="white" transform="translate(93)"/>
+</clipPath>
+</defs>
+</svg>
