@@ -133,7 +133,7 @@ const Shot1Hook: React.FC<{ frame: number; fps: number }> = ({ frame, fps }) => 
   return (
     <AbsoluteFill style={{ opacity }}>
       {/* SFX: Whoosh on entrance */}
-      {/* <Audio src={staticFile('sfx/whoosh-in.mp3')} volume={0.4} /> */}
+      {frame === 0 && <Audio src={staticFile('sfx/whoosh-in.wav')} volume={0.4} />}
 
       <div
         style={{
@@ -200,7 +200,7 @@ const Shot2ValueProp: React.FC<{ frame: number; fps: number }> = ({ frame, fps }
   return (
     <AbsoluteFill style={{ opacity }}>
       {/* SFX: UI click on "earn more" */}
-      {/* {frame === WORD_STAGGER * 2 && <Audio src={staticFile('sfx/ui-click.mp3')} volume={0.3} />} */}
+      {frame === WORD_STAGGER * 2 && <Audio src={staticFile('sfx/ui-click.wav')} volume={0.3} />}
 
       <div
         style={{
@@ -271,7 +271,7 @@ const Shot3Dashboard: React.FC<{ frame: number; fps: number }> = ({ frame, fps }
   return (
     <AbsoluteFill style={{ opacity }}>
       {/* SFX: Impact on dashboard reveal */}
-      {/* {frame === WORD_DURATION && <Audio src={staticFile('sfx/impact-soft.mp3')} volume={0.5} />} */}
+      {frame === Math.round(WORD_DURATION * 1.5) && <Audio src={staticFile('sfx/impact-soft.wav')} volume={0.5} />}
 
       <div
         style={{
@@ -449,7 +449,7 @@ const Shot5Stats: React.FC<{ frame: number; fps: number }> = ({ frame, fps }) =>
   return (
     <AbsoluteFill style={{ opacity }}>
       {/* SFX: Impact on number reveal */}
-      {/* {frame === FADE_FRAMES && <Audio src={staticFile('sfx/impact-hard.mp3')} volume={0.6} />} */}
+      {frame === FADE_FRAMES && <Audio src={staticFile('sfx/impact-hard.wav')} volume={0.6} />}
 
       <div
         style={{
