@@ -9,6 +9,7 @@ import { FluidTypography } from "./demos/FluidTypography";
 import { CurvanceBytesLaunch } from "./demos/CurvanceBytesLaunch";
 import { CurvanceBytesLaunchV2 } from "./demos/CurvanceBytesLaunchV2";
 import { CurvanceBytesLaunchV3 } from "./demos/CurvanceBytesLaunchV3";
+import { ChugnusShowcase } from "./demos/chugnus-showcase/ChugnusShowcase";
 
 // STANDARD: 60fps for all compositions (smoother animations, professional output)
 const FPS = 60;
@@ -111,6 +112,15 @@ export const RemotionRoot: React.FC = () => {
         id="CurvanceBytesLaunchV3"
         component={CurvanceBytesLaunchV3}
         durationInFrames={1326}
+        fps={FPS}
+        width={1920}
+        height={1080}
+      />
+      {/* Chugnus Command Center — Single isometric orbit showcase (30s) */}
+      <Composition
+        id="ChugnusShowcase"
+        component={ChugnusShowcase}
+        durationInFrames={1800}
         fps={FPS}
         width={1920}
         height={1080}
